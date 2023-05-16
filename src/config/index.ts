@@ -33,6 +33,7 @@ export enum Language {
   German = 'de-DE',
   Portuguese = 'pt-PT',
   Russian = 'ru-RU',
+  Vietnamese = 'vi-VN',
 }
 
 const userConfigWithDefaultValue: {
@@ -60,7 +61,7 @@ const userConfigWithDefaultValue: {
   pageSummaryEnable: true,
   pageSummaryWhitelist: '',
   pageSummaryBlacklist: '',
-  continueConversation: true
+  continueConversation: true,
 }
 
 export type UserConfig = typeof userConfigWithDefaultValue
