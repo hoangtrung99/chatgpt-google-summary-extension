@@ -39,7 +39,7 @@ function PageSelectionComponent(props: PageSelectionProps) {
             {t('enable')}
           </Text>
           <Text className="glarity--mt-0" font="12px">
-            {t('enable.selection')}
+            {t('enable_selection')}
           </Text>
         </Card.Content>
       </Card>

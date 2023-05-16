@@ -140,7 +140,7 @@
   "enable": {
     "message": "Enable"
   },
-  "enable.selection": {
+  "enable_selection": {
     "message": " Enable/disable page selection feature."
   }
 }
