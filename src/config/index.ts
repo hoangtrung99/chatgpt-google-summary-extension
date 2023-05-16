@@ -14,7 +14,7 @@ export const TRIGGER_MODE_TEXT = {
   },
   [TriggerMode.Manually]: {
     title: t('manually'),
-    desc: t("manually_tip"),
+    desc: t('manually_tip'),
   },
 }
 
@@ -36,6 +36,7 @@ export enum Language {
   German = 'de-DE',
   Portuguese = 'pt-PT',
   Russian = 'ru-RU',
+  Vietnamese = 'vi-VN',
 }
 
 export const BASE_URL = 'https://chat.openai.com'
@@ -228,7 +229,7 @@ export const CHAT_MODEL: ChatModel[] = [
   {
     name: 'GPT-3.5 Turbo',
     code: ChatModelType.GPT35,
-    desc:t('gpt3_5tip'),
+    desc: t('gpt3_5tip'),
   },
   {
     name: 'GPT-4',
